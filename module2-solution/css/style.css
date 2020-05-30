@@ -1,0 +1,106 @@
+
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    /* In Border box, width or height = content + border + padding 
+       In Content box, width or height = content + padding 
+       Margins are always out of width and height specification */
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.75em;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        background-color: gray;
+        color: white;
+        font-family: Helvetica;
+        width: 31.33%;
+        border: 1px solid black;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        background-color: gray;
+        color: white;
+        font-family: Helvetica;
+        border: 1px solid black;
+        margin: 1%;
+        
+    }
+    .col-md-6 {
+        width: 48%;
+    }
+    .col-md-12 {
+        width: 98%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        float: left;
+        background-color: gray;
+        color: white;
+        font-family: Helvetica;
+        width: 98%;
+        border: 1px solid black;
+        margin: 1%;
+    }
+}
+
+.tiletitle-chicken {
+    background-color: #A52A2A;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 5px;
+    float: right;
+    font-size: 1.25em;
+}
+
+.tiletitle-beef {
+    background-color: #A52A2A;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 5px;
+    float: right;
+    font-size: 1.25em;
+}
+
+.tiletitle-sushi {
+    background-color: #A52A2A;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 5px;
+    float: right;
+    font-size: 1.25em;
+}
+
+.tilebody {
+    padding: 5px;
+    clear: both;
+}
