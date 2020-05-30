@@ -61,8 +61,7 @@
     }
 }
 
-.tiletitle-chicken {
-    background-color: #A52A2A;
+.tiletitle-chicken, .tiletitle-beef, .tiletitle-sushi {
     width: 150px;
     height: 30px;
     border: 1px solid black;
@@ -72,32 +71,18 @@
     padding: 5px;
     float: right;
     font-size: 1.25em;
+}
+
+.tiletitle-chicken {
+    background-color: #A52A2A;
 }
 
 .tiletitle-beef {
-    background-color: #A52A2A;
-    width: 150px;
-    height: 30px;
-    border: 1px solid black;
-    text-align: center;
-    overflow: hidden;
-    margin: 0px;
-    padding: 5px;
-    float: right;
-    font-size: 1.25em;
+    background-color: rgb(42, 165, 93);
 }
 
 .tiletitle-sushi {
-    background-color: #A52A2A;
-    width: 150px;
-    height: 30px;
-    border: 1px solid black;
-    text-align: center;
-    overflow: hidden;
-    margin: 0px;
-    padding: 5px;
-    float: right;
-    font-size: 1.25em;
+    background-color: rgb(42, 71, 165);
 }
 
 .tilebody {
