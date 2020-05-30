@@ -1,0 +1,45 @@
+.tiletitle-chicken, .tiletitle-beef, .tiletitle-sushi {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 5px;
+    float: right;
+    font-size: 1.25em;
+    color: honeydew;
+}
+
+.tiletitle-chicken {
+    background-color: #A52A2A;
+}
+
+.tiletitle-beef {
+    background-color: rgb(42, 165, 93);
+}
+
+.tiletitle-sushi {
+    background-color: rgb(42, 71, 165);
+}
+
+.tilebody {
+    padding: 5px;
+    clear: both;
+}
+
+.inner-div {
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    width: 75%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.menu-text {
+    width: 100%;
+    text-align: center;
+}
